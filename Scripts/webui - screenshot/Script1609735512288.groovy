@@ -19,6 +19,7 @@ import java.awt.Color
 import org.openqa.selenium.Rectangle
 
 WebUI.openBrowser('')
+WebUI.setViewPortSize(1024, 768)
 
 WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
