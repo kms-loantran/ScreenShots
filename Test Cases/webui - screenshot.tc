@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>webui - screenshot</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>qTest</productName>
+      <properties>
+         <entry>
+            <key>versionId</key>
+            <value>68487928</value>
+         </entry>
+         <entry>
+            <key>name</key>
+            <value>webui - screenshot</value>
+         </entry>
+         <entry>
+            <key>pid</key>
+            <value>TC-62</value>
+         </entry>
+         <entry>
+            <key>id</key>
+            <value>47337338</value>
+         </entry>
+         <entry>
+            <key>version</key>
+            <value>0.1</value>
+         </entry>
+         <entry>
+            <key>parentId</key>
+            <value>9993043</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>3631a729-a5bc-4580-b1cc-5188bf47a3a1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a306c8d2-fda2-4a4f-8d22-b16356f69267</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a306c8d2-fda2-4a4f-8d22-b16356f69267</id>
+      <masked>false</masked>
+      <name>abc</name>
+   </variable>
+</TestCaseEntity>

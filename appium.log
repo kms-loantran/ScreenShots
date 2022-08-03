@@ -1,0 +1,78 @@
+[35m[Appium][39m Welcome to Appium v1.20.1
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 59737
+[35m[Appium][39m   loglevel: info
+[35m[Appium][39m   tmpDir: /var/folders/cw/hw6dhd7x1xn_vcx0twkyl769lk3hsp/T//Katalon/Appium/Temp1610972341271
+[35m[Appium][39m   chromedriverPort: 59738
+[35m[Appium][39m Deprecated server args:
+[35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities
+[35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
+[35m[Appium][39m   chromedriverPort: 59738
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:59737
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m4 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"/Users/loantran/Documents/Coffee Timer 2021-01-18 19-06-57/Apps/Coffee Timer.ipa","noReset":true,"deviceName":"Katalon iPad","fullReset":false,"wdaLocalPort":59751,"newCommandTimeout":1800,"realDeviceLogger":"/Users/loantran/Documents/Katalon/Tools/7.8.2/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole","platformVersion":"14.0","automationName":"XCUITest","waitForAppScript":"true;","platformName":"iOS","udid":"c4a9cb959ee5c6e806de81b3904b636f9cc5d6d8"},"capabilities":{"firstMatch":[{"appium:app":"/Users/loantran/Documents/Coffee Timer 2021-01-18 19-06-57/Apps/Coffee Timer.ipa","appium:automationName":"XCUITest","appium:deviceName":"Katalon iPad","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platformName":"ios","appium:platformVersion":"14.0","realDeviceLogger":"/Users/loantran/Documents/Katalon/Tools/7.8.2/Katalon Studio.app/Contents/Eclipse/configuration/resources/tools/deviceconsole","appium:udid":"c4a9cb959ee...[39m
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   realDeviceLogger
+[35m[BaseDriver][39m   chromedriverPort
+[35m[Appium][39m Appium v1.20.1 creating new XCUITestDriver (v3.33.1) session
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   chromedriverPort
+[35m[BaseDriver][39m Session created with session id: 79c7f6f3-dddf-4b26-b81a-1c4b93ee12ff
+[35m[XCUITest][39m Determining device to run tests on: udid: 'c4a9cb959ee5c6e806de81b3904b636f9cc5d6d8', real device: true
+[35m[BaseDriver][39m Using local app '/Users/loantran/Documents/Coffee Timer 2021-01-18 19-06-57/Apps/Coffee Timer.ipa'
+[35m[BaseDriver][39m Unzipped local app to '/var/folders/cw/hw6dhd7x1xn_vcx0twkyl769lk3hsp/T/Katalon/Appium/Temp1610972341271/2021018-15408-14dw0dh.n1xu/Coffee Timer.app'
+[35m[WebDriverAgent][39m Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-webdriveragent'
+[35m[WebDriverAgent][39m Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-webdriveragent/WebDriverAgent.xcodeproj'
+[35m[XCUITest][39m Setting up real device
+[35m[XCUITest][39m App installation succeeded after 2277ms
+[35m[DevCon Factory][39m Requesting connection for device c4a9cb959ee5c6e806de81b3904b636f9cc5d6d8 on local port 59751, device port 59751
+[35m[DevCon Factory][39m Successfully requested the connection for c4a9cb959ee5c6e806de81b3904b636f9cc5d6d8:59751
+[35m[WD Proxy][39m socket hang up
+[35m[WebDriverAgent][39m Launching WebDriverAgent on the device
+[35m[WebDriverAgent][39m WebDriverAgent does not need a cleanup. The sources are up to date (1610971246805 >= 1610971246805)
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[XCUITest][39m Skipping setting of the initial display orientation. Set the "orientation" capability to either "LANDSCAPE" or "PORTRAIT", if this is an undesired behavior.
+[35m[Appium][39m New XCUITestDriver session created successfully, session 79c7f6f3-dddf-4b26-b81a-1c4b93ee12ff added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m16833 ms - 794[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/79c7f6f3-dddf-4b26-b81a-1c4b93ee12ff[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[WD Proxy][39m Error: timeout of 240000ms exceeded
+[35m[WD Proxy][39m     at createError (/usr/local/lib/node_modules/appium/node_modules/axios/lib/core/createError.js:16:15)
+[35m[WD Proxy][39m     at RedirectableRequest.handleRequestTimeout (/usr/local/lib/node_modules/appium/node_modules/axios/lib/adapters/http.js:280:16)
+[35m[WD Proxy][39m     at Object.onceWrapper (events.js:421:26)
+[35m[WD Proxy][39m     at RedirectableRequest.emit (events.js:314:20)
+[35m[WD Proxy][39m     at ClientRequest.eventHandlers.<computed> (/usr/local/lib/node_modules/appium/node_modules/follow-redirects/index.js:13:24)
+[35m[WD Proxy][39m     at ClientRequest.emit (events.js:314:20)
+[35m[WD Proxy][39m     at Socket.emitRequestTimeout (_http_client.js:716:9)
+[35m[WD Proxy][39m     at Object.onceWrapper (events.js:420:28)
+[35m[WD Proxy][39m     at Socket.emit (events.js:326:22)
+[35m[WD Proxy][39m     at Socket._onTimeout (net.js:484:8)
+[35m[WD Proxy][39m     at listOnTimeout (internal/timers.js:554:17)
+[35m[WD Proxy][39m     at processTimers (internal/timers.js:497:7)
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/79c7f6f3-dddf-4b26-b81a-1c4b93ee12ff [39m[31m500[39m [90m60127 ms - 661[39m
+[35m[HTTP][39m [90m[39m
+[35m[Appium][39m Received SIGTERM - shutting down
+[35m[Appium][39m Closing session, cause was 'The process has received SIGTERM signal'
+[35m[Appium][39m Removing session '79c7f6f3-dddf-4b26-b81a-1c4b93ee12ff' from our master session list
+[35m[DevCon Factory][39m Releasing connections for c4a9cb959ee5c6e806de81b3904b636f9cc5d6d8 device on any port number
+[35m[DevCon Factory][39m Found cached connections to release: ["c4a9cb959ee5c6e806de81b3904b636f9cc5d6d8:59751"]
+[35m[DevCon Factory][39m Releasing the listener for 'c4a9cb959ee5c6e806de81b3904b636f9cc5d6d8:59751'
+[35m[HTTP][39m Waiting until the server is closed
+[35m[iProxy@c4a9cb95:59751][39m The connection has been closed
+[35m[HTTP][39m Received server close event

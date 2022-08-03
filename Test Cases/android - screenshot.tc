@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>android - screenshot</name>
+   <tag></tag>
+   <comment>1. takeScreenshot()</comment>
+   <testCaseGuid>c927a4df-f064-42d7-b4ff-bc9aa35e2966</testCaseGuid>
+</TestCaseEntity>
