@@ -6,25 +6,25 @@ parameters:
     default: "latest"
   agent-download-link:
     type: string
-    default: ""
+    default: "https://github.com/katalon-studio/katalon-agent/releases/download/v1.7.6/katalon-agent-linux-x64-v1.7.6.zip"
   job-info:
     type: string
-    default: ""
+    default: "vicky test"
   agent-config:
     type: string
     default: ""
   server-url:
     type: string
-    default: ""
+    default: "https://analytics.katalon.com"
   TESTOPS_API_KEY:
     type: string
-    default: ""
+    default: "a5c1f077-2ee0-4584-ba26-978ee2e11484"
   TESTOPS_SERVER_URL:
     type: string
-    default: ""
+    default: "https://analytics.katalon.com"
   TESTOPS_PROJECT_ID:
     type: string
-    default: ""
+    default: "174435"
   TESTOPS_SESSION_ID:
     type: string
     default: ""
