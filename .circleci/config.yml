@@ -6,10 +6,10 @@ parameters:
     default: "latest"
   agent-download-link:
     type: string
-    default: "https://github.com/katalon-studio/katalon-agent/releases/download/v1.7.6/katalon-agent-linux-x64-v1.7.6.zip"
+    default: "https://github.com/katalon-studio/katalon-agent/releases/download/v1.7.8/katalon-agent-win-x64-v1.7.8.zip"
   job-info:
     type: string
-    default: "vicky test"
+    default: ""
   agent-config:
     type: string
     default: ""
